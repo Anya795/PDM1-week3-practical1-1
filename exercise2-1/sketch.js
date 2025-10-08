@@ -17,8 +17,20 @@ function draw () {
     function KeyPressed() {
         if (key === 'w');{
             circleY -= 5
-        }
-       
+             }
+
+    if (key === 's'); {
+        circleY -= 5
+
     }
+    if (key === 'a'); {
+        circleX -= 5
+
+    }
+    if (key === 'd'); {
+        circleX -= 5
+    }
+       
+        
     
 }
